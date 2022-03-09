@@ -138,3 +138,25 @@ footer {
 .about-us {
   background-color: #e4a434;
 }
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  main {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  aside {
+    width: auto;
+    max-width: 100%;
+    margin: 1.5em 0 0 0;
+  }
+}
